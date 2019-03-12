@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D2F31CB2232CEF1007167BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2F31CA2232CEF1007167BB /* AppDelegate.swift */; };
+		5D2F31CD2232CEF1007167BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2F31CC2232CEF1007167BB /* ViewController.swift */; };
+		5D2F31D02232CEF1007167BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D2F31CE2232CEF1007167BB /* Main.storyboard */; };
+		5D2F31D22232CEF4007167BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D2F31D12232CEF4007167BB /* Assets.xcassets */; };
+		5D2F31D52232CEF4007167BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D2F31D32232CEF4007167BB /* LaunchScreen.storyboard */; };
+		5D2F31DD2232E5A9007167BB /* example_5s0_hand_model.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5D2F31DC2232E5A9007167BB /* example_5s0_hand_model.mlmodel */; };
+		5D2F31E02232ECB6007167BB /* AirGestureHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2F31DF2232ECB6007167BB /* AirGestureHelper.swift */; };
+		5D2F31E22232ED59007167BB /* AirGestureHelper+CaptureOutputDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2F31E12232ED59007167BB /* AirGestureHelper+CaptureOutputDelegate.swift */; };
+		5D2F31E42232ED98007167BB /* AirGestureHelper+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2F31E32232ED98007167BB /* AirGestureHelper+Configuration.swift */; };
+		5D2F31E62232FE2A007167BB /* AirGesture+RightSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2F31E52232FE2A007167BB /* AirGesture+RightSwipe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D2F31C72232CEF1007167BB /* AirGesturesHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirGesturesHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D2F31CA2232CEF1007167BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D2F31CC2232CEF1007167BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D2F31CF2232CEF1007167BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D2F31D12232CEF4007167BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D2F31D42232CEF4007167BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D2F31D62232CEF4007167BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D2F31DC2232E5A9007167BB /* example_5s0_hand_model.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = example_5s0_hand_model.mlmodel; sourceTree = "<group>"; };
+		5D2F31DF2232ECB6007167BB /* AirGestureHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirGestureHelper.swift; sourceTree = "<group>"; };
+		5D2F31E12232ED59007167BB /* AirGestureHelper+CaptureOutputDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AirGestureHelper+CaptureOutputDelegate.swift"; sourceTree = "<group>"; };
+		5D2F31E32232ED98007167BB /* AirGestureHelper+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AirGestureHelper+Configuration.swift"; sourceTree = "<group>"; };
+		5D2F31E52232FE2A007167BB /* AirGesture+RightSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AirGesture+RightSwipe.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D2F31C42232CEF1007167BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D2F31BE2232CEF1007167BB = {
+			isa = PBXGroup;
+			children = (
+				5D2F31C92232CEF1007167BB /* AirGesturesHelper */,
+				5D2F31C82232CEF1007167BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D2F31C82232CEF1007167BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D2F31C72232CEF1007167BB /* AirGesturesHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D2F31C92232CEF1007167BB /* AirGesturesHelper */ = {
+			isa = PBXGroup;
+			children = (
+				5D2F31DE2232ECA2007167BB /* AirGestureHelper */,
+				5D2F31CA2232CEF1007167BB /* AppDelegate.swift */,
+				5D2F31CC2232CEF1007167BB /* ViewController.swift */,
+				5D2F31DC2232E5A9007167BB /* example_5s0_hand_model.mlmodel */,
+				5D2F31CE2232CEF1007167BB /* Main.storyboard */,
+				5D2F31D12232CEF4007167BB /* Assets.xcassets */,
+				5D2F31D32232CEF4007167BB /* LaunchScreen.storyboard */,
+				5D2F31D62232CEF4007167BB /* Info.plist */,
+			);
+			path = AirGesturesHelper;
+			sourceTree = "<group>";
+		};
+		5D2F31DE2232ECA2007167BB /* AirGestureHelper */ = {
+			isa = PBXGroup;
+			children = (
+				5D2F31DF2232ECB6007167BB /* AirGestureHelper.swift */,
+				5D2F31E12232ED59007167BB /* AirGestureHelper+CaptureOutputDelegate.swift */,
+				5D2F31E32232ED98007167BB /* AirGestureHelper+Configuration.swift */,
+				5D2F31E52232FE2A007167BB /* AirGesture+RightSwipe.swift */,
+			);
+			path = AirGestureHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D2F31C62232CEF1007167BB /* AirGesturesHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D2F31D92232CEF4007167BB /* Build configuration list for PBXNativeTarget "AirGesturesHelper" */;
+			buildPhases = (
+				5D2F31C32232CEF1007167BB /* Sources */,
+				5D2F31C42232CEF1007167BB /* Frameworks */,
+				5D2F31C52232CEF1007167BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirGesturesHelper;
+			productName = AirGesturesHelper;
+			productReference = 5D2F31C72232CEF1007167BB /* AirGesturesHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D2F31BF2232CEF1007167BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "claudio Cavalli";
+				TargetAttributes = {
+					5D2F31C62232CEF1007167BB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 5D2F31C22232CEF1007167BB /* Build configuration list for PBXProject "AirGesturesHelper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D2F31BE2232CEF1007167BB;
+			productRefGroup = 5D2F31C82232CEF1007167BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D2F31C62232CEF1007167BB /* AirGesturesHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D2F31C52232CEF1007167BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D2F31D52232CEF4007167BB /* LaunchScreen.storyboard in Resources */,
+				5D2F31D22232CEF4007167BB /* Assets.xcassets in Resources */,
+				5D2F31D02232CEF1007167BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D2F31C32232CEF1007167BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D2F31E02232ECB6007167BB /* AirGestureHelper.swift in Sources */,
+				5D2F31E42232ED98007167BB /* AirGestureHelper+Configuration.swift in Sources */,
+				5D2F31CD2232CEF1007167BB /* ViewController.swift in Sources */,
+				5D2F31E22232ED59007167BB /* AirGestureHelper+CaptureOutputDelegate.swift in Sources */,
+				5D2F31E62232FE2A007167BB /* AirGesture+RightSwipe.swift in Sources */,
+				5D2F31CB2232CEF1007167BB /* AppDelegate.swift in Sources */,
+				5D2F31DD2232E5A9007167BB /* example_5s0_hand_model.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D2F31CE2232CEF1007167BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D2F31CF2232CEF1007167BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D2F31D32232CEF4007167BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D2F31D42232CEF4007167BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D2F31D72232CEF4007167BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D2F31D82232CEF4007167BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D2F31DA2232CEF4007167BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PZBP22QQCA;
+				INFOPLIST_FILE = AirGesturesHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudioCavalli.AirGesturesHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D2F31DB2232CEF4007167BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PZBP22QQCA;
+				INFOPLIST_FILE = AirGesturesHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudioCavalli.AirGesturesHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D2F31C22232CEF1007167BB /* Build configuration list for PBXProject "AirGesturesHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D2F31D72232CEF4007167BB /* Debug */,
+				5D2F31D82232CEF4007167BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D2F31D92232CEF4007167BB /* Build configuration list for PBXNativeTarget "AirGesturesHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D2F31DA2232CEF4007167BB /* Debug */,
+				5D2F31DB2232CEF4007167BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D2F31BF2232CEF1007167BB /* Project object */;
+}
